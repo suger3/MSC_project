@@ -1,8 +1,8 @@
 # MSC_project
 ## k_mer.smk
 A snakemake script to calcualte the kmer distribution for paired reads.
-dependence: kmc,kmc_tools
-input: paired reads
+dependence: kmc,kmc_tools\\
+input: paired reads\\
 output: KMC database and histogram of kmer distribution. This histogram is used to draw kmer histo by Tetmer or GenomeScopes.
 ## mapping.smk
 A snakemake script to get pan-genome.
